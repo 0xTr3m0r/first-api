@@ -18,17 +18,6 @@ router.get('/:id',async (req ,res)=>{
     }
 })
 
-
-router.post('/', async (req, res) => {
-    const { userId,firstName, lastName, bio } = req.body;
-    try {
-        const profile = await Profile.create({ userId,firstName, lastName, bio });
-        res.status(201).json({ message: 'Profile created successfully', post: profile });
-    } catch (err) {
-        res.status(500).json({ message: err.message });
-    }
-});
-
 router.put('/:id', async (req, res) => {
     const { id } = req.params;
     const { firstName, lastName,bio } = req.body;
