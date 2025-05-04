@@ -23,9 +23,9 @@ router.put('/:id', async (req, res) => {
     const { firstName, lastName,bio } = req.body;
 
     try {
-        const post = await Porfile.findByPk(id);
+        const profile = await Porfile.findByPk(id);
         if (!profile) {
-            return res.status(404).json({ message: 'Post not found' });
+            return res.status(404).json({ message: 'profile not found' });
         }
 
         profile.firstName = firstName;
