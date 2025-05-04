@@ -14,12 +14,3 @@ A simple RESTful API built with Node.js, Express, and Sequelize. This API allows
 
 ---
 
-## 📁 Project Structure
-
-My-first-API/
-├── models/            # Sequelize models (User, Profile, Post)
-├── routes/            # API routes (register, login, posts, profile)
-├── server.js          # Main server entry point
-├── package.json       # Lists dependencies and project metadata
-├── .gitignore         # Ignore node_modules, .env, etc.
-└── README.md          # The documentation you just wrote
