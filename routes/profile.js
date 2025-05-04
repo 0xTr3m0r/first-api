@@ -28,8 +28,8 @@ router.put('/:id', async (req, res) => {
             return res.status(404).json({ message: 'Post not found' });
         }
 
-        profile.title = firstName;
-        porfile.content = lastName;
+        profile.firstName = firstName;
+        porfile.lastName = lastName;
         porfile.bio =bio
         await profile.save();
 
