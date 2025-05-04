@@ -14,3 +14,7 @@ A simple RESTful API built with Node.js, Express, and Sequelize. This API allows
 
 ---
 
+## 📁 Project Structure
+
+
+<pre> ## 📁 Project Structure <code> My-first-API/ ├── models/ # Sequelize models (User, Profile, Post) ├── routes/ # API routes (register, login, posts, profile) ├── server.js # Main server entry point ├── package.json # Project dependencies and metadata ├── .env.example # Sample environment config └── README.md # Project documentation </code> </pre>
