@@ -1,4 +1,4 @@
-# My-first-API
+# first-api
 
 A simple RESTful API built with Node.js, Express, and Sequelize. This API allows user registration, login, post creation, profile management, and more — perfect for learning how full-stack backend development works.
 
